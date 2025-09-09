@@ -8,12 +8,12 @@ This document outlines the development plan for creating a C++ application that 
 
 - Create Roadmap Document For the Project
 
-## STEP 1 : PENDING(0/2) =>
+## STEP 1 : DONE(2/2) =>
 
 - **CMake:** Install CMake for cross-platform project building.
 - **vcpkg:** Install the vcpkg package manager to handle third-party libraries.
 
-## STEP 2: PENDING(0/3) =>
+## STEP 2: DONE(3/3) =>
 
 Verify the toolchain by creating a minimal, compilable project.
 

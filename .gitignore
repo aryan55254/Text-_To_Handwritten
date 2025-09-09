@@ -1,0 +1,17 @@
+Ignore CMake and vcpkg build artifacts
+/build
+/vcpkg_installed
+/out
+
+Ignore editor-specific files
+/.vscode
+*.code-workspace
+
+Ignore common temporary files
+*.log
+*.tmp
+*.bak
+
+Ignore OS-specific files
+.DS_Store
+Thumbs.db
