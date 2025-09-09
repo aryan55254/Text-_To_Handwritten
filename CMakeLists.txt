@@ -1,4 +1,3 @@
-#minimum CMake version project name/language.
 cmake_minimum_required(VERSION 3.18)
 project(Text_To_Handwritten CXX)
 
@@ -6,13 +5,17 @@ project(Text_To_Handwritten CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Find the {fmt} library that vcpkg installed.
-# 'CONFIG' mode vcpkg helps CMake find packages. 'REQUIRED' makes it fail if not found.
+# Find library vcpkg installed.
 find_package(fmt CONFIG REQUIRED)
+
+# Find the system-installed SFML library
+find_package(SFML REQUIRED COMPONENTS graphics)
 
 # Define our executable and tell its source code
 add_executable(Text_To_Handwritten src/main.cpp)
 
-# Link executable to the {fmt} library.
-# This tells the compiler to connect our code to the library code.
-target_link_libraries(Text_To_Handwritten PRIVATE fmt::fmt)
+# Link our executable to the libraries.
+target_link_libraries(Text_To_Handwritten PRIVATE
+    fmt::fmt
+    sfml-graphics 
+)

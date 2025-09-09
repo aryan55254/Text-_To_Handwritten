@@ -2,6 +2,7 @@ Ignore CMake and vcpkg build artifacts
 /build
 /vcpkg_installed
 /out
+/vcpkg
 
 Ignore editor-specific files
 /.vscode
