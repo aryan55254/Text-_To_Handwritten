@@ -21,7 +21,7 @@ Verify the toolchain by creating a minimal, compilable project.
 - Create a `CMakeLists.txt` to define the project build configuration.
 - Successfully compile and run the initial program using CMake.
 
-## STEP 3 : PENDING(0/3) =>
+## STEP 3 : DONE(3/3) =>
 
 Incorporate the necessary libraries and font files for the core functionality.
 
