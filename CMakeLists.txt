@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.18)
-project(Text_To_Handwritten CXX)
+project(TTHWITHMISHRA)
 
 #C++17 standard.
 set(CMAKE_CXX_STANDARD 17)
